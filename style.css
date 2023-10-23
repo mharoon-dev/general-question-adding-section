@@ -13,71 +13,39 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(18, 164, 162);
-    transition: all 3s;
+    transition: all 1s;
 }
 h3 {
     border-bottom: 1px solid whitesmoke;
     padding-bottom: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
 }
 h1 {
     background-color: rgb(48, 210, 89);
-    /* background-color: darkorchid; */
     color: whitesmoke;
     border: none;
     border-radius: 50px 50rem 50px 50rem;
     padding: 1rem;
-    transition: all 3s;
+    transition: all 1s;
 }
 
 
 
-.card1 {
-    display: flex;
-    justify-content: space-around !important;
-    align-items: center;
-    background-color: black;
+.card-container {
     color: whitesmoke;
-    width: 30rem;
     height: fit-content;
-    padding: 1rem;
-    margin-bottom: 15px;
     transition: all 1s;
+    width: 30rem;
 }
    
-.card2 {
-    display: flex;
-    justify-content: space-around !important;
-    align-items: center;
-    background-color: black;
-    color: whitesmoke;
-    width: 30rem;
-    height: fit-content;
-    padding: 1rem;
-    margin-bottom: 15px;
-    transition: all 1s;
-}
 
-.card3 {
-    display: flex;
-    justify-content: space-around !important;
-    align-items: center;
-    background-color: black;
-    color: whitesmoke;
-    width: 30rem;
-    height: fit-content;
-    padding: 1rem;
-    margin-bottom: 15px;
-    transition: all 1s;
-}
 
 @media (max-width:500px) {
-    .card1,.card2,.card3 {
-        width: 19rem;
-        font-size: x-small;
+    .card-container {
+        width: 19rem !important;
+        font-size: x-small !important;
     }
-    .on1,.off1,.on2,.off2,.on3,.off3 {
+    .on {
         width: 15px;
     }
-    
 }
